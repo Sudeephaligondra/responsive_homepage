@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("hi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgb(23, 30, 28);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;text-align: center;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+}
+nav .menu a:first-child{
+    color: aqua;
+}
+main {
+    width: 100%;
+    height: 80vh;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+section {
+
+}
+section h3{
+    font-size: 35px;font-weight: 300;letter-spacing: 2px;
+    text-shadow: 1PX 2PX 3PX gray;
+}
+section h1{
+   margin: 30px 0 20px 0;
+   font-size: 55px;
+   font-weight: 700;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   text-shadow: 2px 1px 5px black;
+}
+section p{
+    padding-bottom: 20px;
+    font-size: 35px;font-weight: 300;letter-spacing: 2px;
+    text-shadow: 1PX 1PX 2PX blueviolet;
+
+}
+section a{
+    letter-spacing: 2px;
+    padding: 12px   30px;
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;
+    transition: all 1s ease-out;
+
+   
+}
+section .btnone{
+   background-color: aliceblue;
+
+}
+.btnone:hover{
+    color: blueviolet;
+    background-color: rgb(23, 208, 63);
+   
+}
+.btntwo:hover{
+    color: blueviolet;
+    background-color: rgb(13, 204, 54);}
+section .btntwo{
+    background-color:rgb(8, 141, 151);
+ 
+ }
+ .ch_content:after{
+    font-size: 40px;
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: aquamarine;
+ }
+ @keyframes changetext{
+    0%{content: "hampi";}
+    20%{content: "mysur";}
+    60%{content: "ajantha";}
+    80%{content: "varanasi";}
+    100%{content: "kashmir";}
+ }
+ 
